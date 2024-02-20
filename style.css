@@ -80,11 +80,14 @@ body * {
     display: none;
 }
 
+.sidebar .navbar li {
+    margin-bottom: 8px;
+}
+
 .sidebar .navbar img {
     max-height: 25px;
     max-width: 25px;
     margin-right: 5px;
-    margin-bottom: 5px;
 }
 
 .sidebar .navbar span,
@@ -154,7 +157,7 @@ body * {
     vertical-align: super;
 }
 /*----- /SIDEBAR */
-
+/* /MAIN -----*/
 .main {
     background-color: #141922;
     width: 100%;
@@ -185,6 +188,20 @@ body * {
     margin: 0px 10px;
 }
 
+.main .navbar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.main .navbar li {
+    margin: 20px 20px;
+    color: #a3a3a3;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+/*----- /MAIN */
 /* #endregion APP BODY */
 /* #region APP PLAYER */
 .app-player {
