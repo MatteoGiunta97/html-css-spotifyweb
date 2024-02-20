@@ -12,35 +12,68 @@
       rel="stylesheet"
     />
     <!-- /GOOGLE FONTS -->
+    <!-- FONT-AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <!-- /FONT-AWESOME -->
     <title>Spotify</title>
   </head>
   <body>
     <div class="app-body">
-        <div class="sidebar">
-            <div class="logo">
-              <img src="img/logo.svg" alt="spotify">
-              <img id="logo-small" src="img/logo-small.svg" alt="spotify">
-            </div>
-            <div class="navbar">
-              <ul>
-                <li><img src="img/home.svg" alt="home"><span>Home</span></li>
-                <li><img src="img/search.svg" alt="search"><span>Search</span></li>
-                <li><img src="img/libreria.svg" alt="collection"><span>Your Collection</span></li>
-              </ul>
-            </div>
-            <div class="new-playlist"></div>
-            <div class="playlist"></div>
-            <div class="account"></div>
+      <!-- SIDEBAR -->
+      <div class="sidebar">
+        <div class="logo">
+          <img src="img/logo.svg" alt="spotify" />
+          <img id="logo-small" src="img/logo-small.svg" alt="spotify" />
         </div>
-        <div class="main">
-            <div class="upgrade"></div>
-            <div class="navbar"></div>
-            <div class="recently-played"></div>
-            <div class="for-you"></div>
-            <div class="popular"></div>
+        <div class="navbar">
+          <ul>
+            <li>
+              <img src="img/home.svg" alt="home" /><span>Home</span>
+            </li>
+            <li>
+              <img src="img/search.svg" alt="search" /><span>Search</span>
+            </li>
+            <li>
+              <img src="img/libreria.svg" alt="collection" /><span>Your Collection</span>
+            </li>
+          </ul>
         </div>
+        <div class="new-playlist">
+          <h4>playlist</h4>
+          <i class="fa-solid fa-square-plus"></i><span>New Playlist</span>
+        </div>
+        <div class="playlist">
+          <ul>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+            <li>Playlist Name</li>
+          </ul>
+        </div>
+        <div class="account"></div>
+      </div>
+      <!-- /SIDEBAR -->
+      <!-- MAIN CONTENT -->
+      <div class="main">
+        <div class="upgrade"></div>
+        <div class="navbar"></div>
+        <div class="recently-played"></div>
+        <div class="for-you"></div>
+        <div class="popular"></div>
+      </div>
+      <!-- /MAIN CONTENT -->
     </div>
-    <div class="app-player">
-    </div>
+    <div class="app-player"></div>
   </body>
 </html>
