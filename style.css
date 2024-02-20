@@ -74,6 +74,10 @@ body * {
     max-height: 40px;
 }
 
+#logo-small {
+    display: none;
+}
+
 .sidebar .navbar img {
     max-height: 30px;
     max-width: 30px;
@@ -120,6 +124,23 @@ body * {
 @media screen and (max-width:600px) {
     .sidebar {
         width: 40px;
+        padding: 10px;
+    }
+
+    .logo :first-child {
+        display: none;
+    }
+
+    #logo-small {
+        display: block;
+    }
+
+    .sidebar .navbar img {
+        width: 100%;
+    }
+
+    .sidebar .navbar span {
+        display: none;
     }
 
     .new-playlist,
