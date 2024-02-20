@@ -202,18 +202,22 @@ body * {
     font-weight: 900;
 }
 
-.recently-played {
+.recently-played,
+.for-you  {
     margin: 20px 20px;
     color: white;
 }
 
-.recently-played h2 {
+.recently-played h2,
+.for-you h2 {
     margin-bottom: 20px;
 }
 
-.recently-played .col {
+.recently-played .col,
+.for-you .col {
     width: calc(100%/6);
 }
+
 
 /*----- /MAIN */
 /* #endregion APP BODY */
@@ -227,7 +231,8 @@ body * {
 /* #endregion APP PLAYER */
 /* #region RESPONSIVE */
 @media screen and (max-width:1100px) {
-    .recently-played .col {
+    .recently-played .col,
+    .for-you .col {
         width: calc(100%/4);
     }
 }
@@ -258,7 +263,8 @@ body * {
         width: 100%;
     }
 
-    .recently-played .col {
+    .recently-played .col,
+    .for-you .col {
         width: calc(100%/2);
     }
 
