@@ -80,13 +80,16 @@ body * {
 }
 
 .sidebar .navbar img {
-    max-height: 30px;
-    max-width: 30px;
+    max-height: 25px;
+    max-width: 25px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .sidebar .navbar span,
 .new-playlist span,
-.playlist li {
+.playlist li,
+.account span {
     vertical-align: super;
     padding-left: 5px;
     font-weight: 900;
@@ -94,7 +97,7 @@ body * {
 }
 
 .new-playlist {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .new-playlist h4,
 .new-playlist span {
@@ -104,11 +107,12 @@ body * {
 .new-playlist h4 {
     text-transform: uppercase;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .new-playlist .fa-solid {
     font-size: 38px;
+    margin-right: 5px;
 }
 
 .playlist {
@@ -117,11 +121,35 @@ body * {
 }
 
 .playlist li {
-    margin-bottom: 8px;
+    margin-bottom: 10px;
 }
 
 .account {
     margin-top: auto;
+}
+
+.account img {
+    width: 20px;
+    height: 20px;
+}
+
+.account hr {
+    margin: 8px 0;
+}
+
+.account .profile {
+    width: 25px;
+    height: 25px;
+    background-color: #808080;
+    border-radius: 50%;
+}
+
+.account h4 {
+    color: white;
+    font-size: 16px;
+    display: inline;
+    padding-left: 5px;
+    vertical-align: super;
 }
 /*----- /SIDEBAR */
 
