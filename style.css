@@ -1,0 +1,122 @@
+/* #region RESET */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    width: 100%;
+}
+
+/* #endregion RESET */
+/* #region LAYOUT */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+}
+
+.col {
+    padding: 0 10px;
+}
+
+.grow {
+    flex-grow: 1;
+}
+
+/* #endregion LAYOUT */
+/* #region GENERAL */
+body * {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* #endregion GENERAL */
+/* #region APP BODY */
+.app-body {
+    height: calc(100vh - 90px);
+    display: flex;
+}
+
+.sidebar {
+    background-color: black;
+    color: #a3a3a3;
+    width: 230px;
+    flex-shrink: 0;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    max-height: 40px;
+}
+
+.playlist {
+    flex-grow: 1;
+    overflow-y: auto;
+}
+
+.account {
+    margin-top: auto;
+}
+
+.main {
+    background-color: #141922;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.upgrade {
+    background-color: #080b12;
+    height: 90px;
+}
+
+/* #endregion APP BODY */
+/* #region APP PLAYER */
+.app-player {
+    background-color: #282828;
+    height: 90px;
+    display: flex;
+}
+
+/* #endregion APP PLAYER */
+/* #region RESPONSIVE */
+@media screen and (max-width:1100px) {
+    
+}
+
+@media screen and (max-width:700px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    .sidebar {
+        width: 40px;
+    }
+    .new-playlist, 
+    .playlist {
+        display: none;
+    }
+}
+/* #endregion RESPONSIVE */
