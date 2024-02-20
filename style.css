@@ -73,6 +73,7 @@ body * {
 
 .logo img {
     max-height: 40px;
+    width: auto;
 }
 
 #logo-small {
@@ -142,6 +143,7 @@ body * {
     height: 25px;
     background-color: #808080;
     border-radius: 50%;
+    margin-top: 8px;
 }
 
 .account h4 {
@@ -184,7 +186,13 @@ body * {
         padding: 10px;
     }
 
-    .logo :first-child {
+    .logo :first-child,
+    .sidebar .navbar span,
+    .new-playlist,
+    .playlist,
+    .account span,
+    .account hr,
+    .account h4 {
         display: none;
     }
 
@@ -196,14 +204,6 @@ body * {
         width: 100%;
     }
 
-    .sidebar .navbar span {
-        display: none;
-    }
-
-    .new-playlist,
-    .playlist {
-        display: none;
-    }
 }
 
 /* #endregion RESPONSIVE */
