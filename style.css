@@ -164,6 +164,25 @@ body * {
 .upgrade {
     background-color: #080b12;
     height: 90px;
+    position: sticky;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.upgrade button {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 35px;
+    padding: 10px 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 900;
+    margin: 0px 10px;
 }
 
 /* #endregion APP BODY */
