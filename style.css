@@ -272,6 +272,16 @@ body * {
     height: 45px;
 }
 
+.app-player .left .album-info,
+.app-player .left .fa-folder {
+    margin-left: 10px;
+}
+
+.app-player .left .player-icons {
+    margin-left: 40px;
+}
+
+
 .app-player .left .album-info h6 {
     color: #a3a3a3;
 }
@@ -288,6 +298,24 @@ body * {
     display: flex;
     align-items: center;
     justify-content: right;
+}   
+
+.app-player .right i,
+.app-player .right .vol-bar {
+    margin-left: 20px;
+}
+
+.app-player .right .vol-bar {
+    height: 8px;
+    width: 100px;
+    background-color: #a3a3a3;
+    display: inline-block;
+}
+
+.app-player .right .vol-bar-in {
+    height: 8px;
+    width: 40px;
+    background-color: white;
 }
 
 /* #endregion APP PLAYER */
