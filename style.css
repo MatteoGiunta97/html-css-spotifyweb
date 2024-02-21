@@ -108,6 +108,10 @@ body * {
     font-size: 16px;
 }
 
+.new-playlist a:hover {
+    color: white;
+}
+
 .new-playlist h4 {
     text-transform: uppercase;
     color: white;
@@ -125,7 +129,11 @@ body * {
 }
 
 .playlist li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.playlist li:hover {
+    color: white;
 }
 
 .account {
@@ -135,6 +143,10 @@ body * {
 .account img {
     width: 20px;
     height: 20px;
+}
+
+.account a:hover {
+    color: white;
 }
 
 .account hr {
