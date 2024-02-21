@@ -289,8 +289,39 @@ body * {
 .app-player .middle {
     width: 50%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.app-player .middle i {
+    font-size: 16px;
+    margin: 5px 10px;
+}
+
+.app-player .middle .fa-circle-play {
+    font-size: 28px;
+    vertical-align: middle;
+}
+.app-player .middle .now-playing {
+    display: flex;
+    align-items: center;
+}
+
+.app-player .middle .play-bar {
+    height: 5px;
+    width: 400px;
+    background-color: #a3a3a3;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 10px;
+}
+
+.app-player .middle .play-bar-in {
+    height: 5px;
+    width: 100px;
+    background-color: white;
+    border-radius: 10px;
 }
 
 .app-player .right {
@@ -311,12 +342,14 @@ body * {
     background-color: #a3a3a3;
     display: inline-block;
     vertical-align: middle;
+    border-radius: 10px;
 }
 
 .app-player .right .vol-bar-in {
     height: 5px;
     width: 40px;
     background-color: white;
+    border-radius: 10px;
 }
 
 /* #endregion APP PLAYER */
