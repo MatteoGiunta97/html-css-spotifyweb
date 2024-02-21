@@ -306,14 +306,15 @@ body * {
 }
 
 .app-player .right .vol-bar {
-    height: 8px;
+    height: 5px;
     width: 100px;
     background-color: #a3a3a3;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .app-player .right .vol-bar-in {
-    height: 8px;
+    height: 5px;
     width: 40px;
     background-color: white;
 }
