@@ -312,6 +312,14 @@ body * {
     color: white;
 }
 
+.player-icons {
+    color: #a3a3a3;
+}
+
+.player-icons i:hover {
+    color: white;
+}
+
 .app-player .left {
     width: 25%;
     display: flex;
@@ -333,9 +341,13 @@ body * {
     margin-left: 40px;
 }
 
-
 .app-player .left .album-info h6 {
     color: #a3a3a3;
+}
+
+.app-player .left .album-info h6:hover {
+    color: white;
+    text-decoration: underline;
 }
 
 .app-player .middle {
