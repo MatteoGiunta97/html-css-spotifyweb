@@ -188,6 +188,11 @@ body * {
     margin: 0px 10px;
 }
 
+.upgrade button:hover {
+    font-size: 18px;
+    padding: 12px 28px;
+}
+
 .main .navbar ul {
     display: flex;
     flex-wrap: wrap;
